@@ -13,7 +13,8 @@
 
   <br />
 
-  <img width="250" alt="Logo Tel-U" src="SS/image1.png" />
+  <img width="182" height="182" alt="image1" src="https://github.com/user-attachments/assets/39688d3b-7810-4b0f-8904-d5508394ba02" />
+
 
   <br />
   <br />
@@ -58,21 +59,27 @@ Untuk pengelolaan arsitektur, Flutter mendukung berbagai pendekatan, salah satun
 ### 2.1 Verifikasi SDK Android Studio
 *(Penjelasan: Screenshot SDK Manager untuk memastikan build tools aman)*
 <br>
-<img src="SS/image2.png" width="800">
+<img width="975" height="697" alt="Screenshot 2026-05-10 at 13 35 15" src="https://github.com/user-attachments/assets/f44bfc8b-db0e-406e-a6ad-2fcec233b963" />
+<img width="555" height="410" alt="image3" src="https://github.com/user-attachments/assets/22df2478-9e5b-4514-a296-ed9351a6d3cb" />
+
 <br>
-<img src="SS/image3.png" width="800">
+
+
 
 ### 2.2 Struktur Proyek Baru
 *(Penjelasan: Screenshot struktur direktori proyek Flutter di IDE)*
 <br>
-<img src="SS/image4.png" width="600">
+<img width="539" height="350" alt="image4" src="https://github.com/user-attachments/assets/d71bee71-d5af-415c-9ccf-01ecf4874e4c" />
+
 <br>
-<img src="SS/image5.png" width="600">
+<img width="556" height="490" alt="image5" src="https://github.com/user-attachments/assets/8986eec0-73e5-4711-a433-9e7170990660" />
+
 
 ### 2.3 Verifikasi Instalasi Flutter (Flutter Doctor)
 *(Penjelasan: Screenshot terminal hasil `flutter doctor -v` untuk memastikan seluruh dependensi terinstal dengan benar)*
 <br>
-<img src="SS/image6.png" width="800">
+<img width="624" height="459" alt="image6" src="https://github.com/user-attachments/assets/74db91b1-5118-4127-858b-4b759521d256" />
+
 
 ### 2.4 Source Code Hello World
 ```dart
@@ -127,7 +134,8 @@ class _MyHomePageState extends State<MyHomePage> {
 
 ### 2.5 Hasil Running Hello World
 <br>
-<img src="SS/image7.png" width="800">
+<img width="624" height="395" alt="image7" src="https://github.com/user-attachments/assets/480da7ea-0869-4061-8ed4-2f9f13d8b60e" />
+
 
 ---
 
@@ -155,7 +163,8 @@ Variable primitif yang tersedia di Dart: `int`, `double`, `String`, `bool`.
 
 **Screenshot Hasil Variable:**
 <br>
-<img src="SS/image8.png" width="500">
+<img width="376" height="169" alt="image8" src="https://github.com/user-attachments/assets/5738feb5-11a9-42ee-b992-a59f6c4d822d" />
+
 
 #### 3.1.2 Statement Control
 Statement control digunakan untuk menentukan alur eksekusi program. Dart mendukung `if`, `if-else`, `if-else-if`, dan `switch-case`.
@@ -177,7 +186,8 @@ switch(expression) {
 
 **Screenshot Hasil Statement Control:**
 <br>
-<img src="SS/image9.png" width="500">
+<img width="310" height="126" alt="image9" src="https://github.com/user-attachments/assets/a36ddb13-60ff-4f76-80f1-439836cf7464" />
+
 
 #### 3.1.3 Looping
 Terdapat dua cara utama untuk melakukan perulangan di Dart:
@@ -186,7 +196,8 @@ Terdapat dua cara utama untuk melakukan perulangan di Dart:
 
 **Screenshot Hasil Looping:**
 <br>
-<img src="SS/image10.png" width="500">
+<img width="405" height="220" alt="image10" src="https://github.com/user-attachments/assets/d6131514-7d22-4e73-a14d-508a79b26604" />
+
 
 #### 3.1.4 List
 Dalam Dart, kumpulan data dalam satu variabel disebut List (Array).
@@ -203,7 +214,8 @@ growableList.add(12);
 
 **Screenshot Hasil List:**
 <br>
-<img src="SS/image11.png" width="500">
+<img width="538" height="143" alt="image11" src="https://github.com/user-attachments/assets/0a6dc660-633f-44fe-bb5a-f5eb47ac629f" />
+
 
 #### 3.1.5 Fungsi (Function)
 Fungsi sangat penting untuk menerapkan prinsip *Separation of Concern*.
@@ -221,7 +233,8 @@ factorial(number) {
 
 **Screenshot Hasil Fungsi:**
 <br>
-<img src="SS/image11.png" width="500">
+<img width="538" height="143" alt="image11" src="https://github.com/user-attachments/assets/18feb39b-5e28-46b8-95d0-f34fc90a243c" />
+
 
 ---
 
