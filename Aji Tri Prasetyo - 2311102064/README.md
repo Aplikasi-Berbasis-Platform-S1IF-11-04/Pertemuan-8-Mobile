@@ -22,8 +22,8 @@
   <h3>Disusun Oleh :</h3>
 
   <p>
-    <strong>Arnanda Setya Nosa Putra</strong><br>
-    <strong>2311102180</strong><br>
+    <strong>Aji Tri Prasetyo</strong><br>
+    <strong>2311102074</strong><br>
     <strong>S1 IF-11-04</strong>
   </p>
 
@@ -47,31 +47,31 @@
 
 # 1. Dasar Teori
 
-Flutter adalah framework open-source yang dikembangkan oleh Google untuk 
-membangun aplikasi lintas platform seperti mobile, web, dan desktop hanya dengan 
-satu codebase. Flutter menggunakan bahasa pemrograman Dart serta didukung oleh 
-Skia Graphics Engine untuk merender tampilan secara langsung ke layar tanpa 
-bergantung pada komponen native. Salah satu keunggulan utama Flutter adalah 
-fitur hot reload yang memungkinkan developer melihat perubahan kode secara 
-langsung tanpa harus melakukan build ulang aplikasi, sehingga proses 
+Flutter adalah framework open-source yang dikembangkan oleh Google untuk
+membangun aplikasi lintas platform seperti mobile, web, dan desktop hanya dengan
+satu codebase. Flutter menggunakan bahasa pemrograman Dart serta didukung oleh
+Skia Graphics Engine untuk merender tampilan secara langsung ke layar tanpa
+bergantung pada komponen native. Salah satu keunggulan utama Flutter adalah
+fitur hot reload yang memungkinkan developer melihat perubahan kode secara
+langsung tanpa harus melakukan build ulang aplikasi, sehingga proses
 pengembangan menjadi lebih cepat dan efisien.
 
-Dalam pengembangan antarmuka, Flutter menggunakan konsep widget tree, yaitu 
-struktur hierarkis di mana seluruh elemen UI dibangun dari widget. Widget ini 
-terbagi menjadi dua jenis utama, yaitu stateless widget yang tidak memiliki 
-state (data tidak berubah) dan stateful widget yang memiliki state yang dapat 
-berubah selama aplikasi berjalan. Struktur dasar aplikasi Flutter biasanya 
-dimulai dari MaterialApp sebagai root aplikasi, kemudian Scaffold sebagai 
-kerangka utama layout yang menyediakan komponen seperti AppBar dan body, serta 
+Dalam pengembangan antarmuka, Flutter menggunakan konsep widget tree, yaitu
+struktur hierarkis di mana seluruh elemen UI dibangun dari widget. Widget ini
+terbagi menjadi dua jenis utama, yaitu stateless widget yang tidak memiliki
+state (data tidak berubah) dan stateful widget yang memiliki state yang dapat
+berubah selama aplikasi berjalan. Struktur dasar aplikasi Flutter biasanya
+dimulai dari MaterialApp sebagai root aplikasi, kemudian Scaffold sebagai
+kerangka utama layout yang menyediakan komponen seperti AppBar dan body, serta
 widget lain seperti Text dan Center untuk menampilkan dan mengatur posisi konten.
 
-Untuk pengelolaan arsitektur, Flutter mendukung berbagai pendekatan, salah 
-satunya adalah BLoC (Business Logic Component). Pola ini bertujuan untuk 
-memisahkan logika bisnis dari tampilan dengan menggunakan konsep event dan 
-state, sehingga aplikasi menjadi lebih terstruktur, mudah dikembangkan, 
-scalable, dan lebih mudah untuk diuji. Sebagai langkah awal pembelajaran, 
-biasanya developer membuat aplikasi sederhana seperti “Hello World” untuk 
-memahami struktur dasar Flutter dan cara kerja widget dalam membangun 
+Untuk pengelolaan arsitektur, Flutter mendukung berbagai pendekatan, salah
+satunya adalah BLoC (Business Logic Component). Pola ini bertujuan untuk
+memisahkan logika bisnis dari tampilan dengan menggunakan konsep event dan
+state, sehingga aplikasi menjadi lebih terstruktur, mudah dikembangkan,
+scalable, dan lebih mudah untuk diuji. Sebagai langkah awal pembelajaran,
+biasanya developer membuat aplikasi sederhana seperti “Hello World” untuk
+memahami struktur dasar Flutter dan cara kerja widget dalam membangun
 tampilan aplikasi.
 
 ---
@@ -79,7 +79,9 @@ tampilan aplikasi.
 # 2. Screenshot Tampilan Environment & Hasil
 
 ## Verifikasi SDK Android Studio
-*(Penjelasan: Screenshot SDK Manager untuk memastikan build tools aman)*
+
+_(Penjelasan: Screenshot SDK Manager untuk memastikan build tools aman)_
+
 <p>
 <img width="1002" height="744" alt="Screenshot 2026-05-04 003252" src="https://github.com/user-attachments/assets/f86fc37c-aba4-465c-8169-64c252592edf" />
 <img width="992" height="742" alt="Screenshot 2026-05-04 003318" src="https://github.com/user-attachments/assets/cb816512-6e96-4da7-962a-d8c7e9e6f189" />
@@ -88,21 +90,26 @@ tampilan aplikasi.
 </p>
 
 ## Struktur Proyek Baru
-*(Penjelasan: Screenshot struktur direktori proyek Flutter di IDE)*
+
+_(Penjelasan: Screenshot struktur direktori proyek Flutter di IDE)_
+
 <p>
 <img width="791" height="719" alt="image" src="https://github.com/user-attachments/assets/e38e09a6-1e24-42f8-a5e4-58e0b34ac94c" />
 
 </p>
 
 ## Verifikasi Instalasi Flutter (Flutter Doctor)
-*(Penjelasan: Screenshot terminal hasil `flutter doctor -v` untuk memastikan 
-seluruh dependensi terinstal dengan benar dan aman dari celah environment)*
+
+_(Penjelasan: Screenshot terminal hasil `flutter doctor -v` untuk memastikan
+seluruh dependensi terinstal dengan benar dan aman dari celah environment)_
+
 <p>
 <img width="907" height="769" alt="image" src="https://github.com/user-attachments/assets/e220e537-0fe6-45a5-a92e-d165a8f9b815" />
 
 </p>
 
 ## Source Code Hello World
+
 ```dart
 import 'package:flutter/material.dart';
 
@@ -152,7 +159,9 @@ class _MyHomePageState extends State<MyHomePage> {
   }
 }
 ```
+
 ## Hasil Running Hello World
+
 <p>
 <img width="1225" height="972" alt="image" src="https://github.com/user-attachments/assets/906c6efb-563e-492c-95a2-d33fff00097b" />
 
@@ -162,30 +171,33 @@ class _MyHomePageState extends State<MyHomePage> {
 
 # 3. MODUL 03 - Pengenalan Dart
 
-
 ## 3.1. Pengenalan Dart
-Untuk belajar Flutter, tidak perlu terlalu fasih mempelajari bahasa Dart secara 
-mendalam di awal. Terdapat fundamental yang perlu dipelajari seperti variable, 
-statement control, looping, array, fungsi, dan sebagainya. Karakteristik bahasa 
-Dart mirip dengan bahasa C atau Java, di mana penggunaan titik koma (`;`) 
+
+Untuk belajar Flutter, tidak perlu terlalu fasih mempelajari bahasa Dart secara
+mendalam di awal. Terdapat fundamental yang perlu dipelajari seperti variable,
+statement control, looping, array, fungsi, dan sebagainya. Karakteristik bahasa
+Dart mirip dengan bahasa C atau Java, di mana penggunaan titik koma (`;`)
 diakhir baris kodingan adalah wajib.
 
 ## 3.1.1. Variable
-Penggunaan variable di Dart dapat dilakukan dengan beberapa cara, yaitu 
-menggunakan `var`, *type annotation*, dan *multiple variable*.
+
+Penggunaan variable di Dart dapat dilakukan dengan beberapa cara, yaitu
+menggunakan `var`, _type annotation_, dan _multiple variable_.
 
 **Contoh Kode:**
+
 ```dart
 // var
 var namaVariable = nilai;
 
 // type annotation
-String nama = "Arnanda";
-int umur = 20;
+String nama = "Aji";
+int umur = 21;
 
 // multiple variable
 var a = 1, b = 2, c = 3;
 ```
+
 Variable primitif yang tersedia di Dart:
 
 Integer (int)
@@ -197,9 +209,11 @@ String (string)
 Boolean (bool)
 
 ### Screenshot Hasil Variable:
-<img width="376" height="169" alt="image" src="https://github.com/user-attachments/assets/f803bc0b-43b4-4e1e-aa6d-9347d1cd47dc" />
+
+<img width="376" height="169" alt="image" src="https://github.com/user-attachments/assets/f803bc0b-43b4-4e1e-aa6d-9347d1c47dc" />
 
 ## 3.1.2. Statement Control
+
 Statement control digunakan untuk menentukan alur eksekusi program.
 Dart mendukung if, if-else, if-else-if, dan switch-case.
 
@@ -218,10 +232,13 @@ switch(expression) {
     break;
 }
 ```
+
 ### Screenshot Hasil Statement Control:
+
 <img width="310" height="126" alt="image" src="https://github.com/user-attachments/assets/b1399050-e080-4945-85d0-28fe46b9b4f3" />
 
 ## 3.1.3. Looping
+
 Terdapat dua cara utama untuk melakukan perulangan di Dart:
 
 For Loops: Digunakan saat jumlah perulangan sudah diketahui pasti.
@@ -233,6 +250,7 @@ Screenshot Hasil Looping:
 <img width="405" height="220" alt="image" src="https://github.com/user-attachments/assets/3e315d75-ddd6-4683-8e85-eb87e1d11e1d" />
 
 ## 3.1.4. List
+
 Dalam Dart, kumpulan data dalam satu variabel disebut List (di bahasa lain
 sering disebut Array).
 
@@ -242,6 +260,7 @@ Fixed Length List: Memiliki panjang indeks yang tetap.
 var newList = List.filled(3, 0); // Contoh modern
 newList[0] = 12;
 ```
+
 Growable List: Digunakan jika jumlah objek tidak menentu atau terus
 bertambah.
 
@@ -249,10 +268,13 @@ bertambah.
 var growableList = [];
 growableList.add(12);
 ```
+
 ### Screenshot Hasil List:
+
 <img width="538" height="143" alt="image" src="https://github.com/user-attachments/assets/86138fc9-b669-4224-9227-190ff49f9511" />
 
 ## 3.1.5. Fungsi (Function)
+
 Fungsi sangat penting dalam pemrograman berbasis objek untuk menerapkan prinsip
 Separation of Concern. Program yang baik harus mengurangi boilerplate code dan memiliki tanggung jawab yang spesifik.
 
@@ -267,7 +289,9 @@ factorial(number) {
   }
 }
 ```
+
 ### Screenshot Hasil Fungsi:
+
 <img width="538" height="143" alt="image" src="https://github.com/user-attachments/assets/f690fcf8-23dc-40f3-afc8-a5f7a2bb1d8d" />
 
 ### Referensi
